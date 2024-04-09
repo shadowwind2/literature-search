@@ -1,0 +1,118 @@
+.search-wrap {
+    text-align: center;
+
+    .search-box {
+        position: relative;
+        width: 768px;
+        margin: 15px auto 0;
+        animation: home-fade .6s ease-in-out 1;
+        height: 50px;
+        border: 2px solid rgba(37, 94, 251, 0.79);
+        background: rgba(255, 255, 255, .5);
+        display: flex;
+        align-items: center;
+        color: #fff;
+        border-radius: 40px;
+        text-align: left;
+        padding: 0 4px;
+        font-size: 18px !important;
+
+        &:hover {
+            border: 2px solid rgba(150, 163, 232, 0.7);
+        }
+    }
+
+    .search-drop {
+        position: relative;
+        z-index: 99;
+        background: #69a3e7;
+        width: 130px;
+        height: 40px;
+        border-radius: 40px;
+        font-size: 14px;
+        align-self: center;
+    }
+
+    .search-tab-text {
+        display: block;
+        height: 40px;
+        line-height: 41px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .search-dropdown {
+        position: absolute;
+        padding: 0;
+        background-color: #3d93f5;
+        box-shadow: 0 0 4px 0 #6973b3;
+        border-radius: 6px 6px 4px 4px;
+        z-index: 999;
+        top: 50px;
+        left: 4px;
+        width: 120px;
+        display: none;
+
+        div {
+            cursor: pointer;
+            text-align: center;
+
+            &:hover {
+                background: #6272d6;
+            }
+        }
+    }
+
+    .search-input {
+        z-index: 1000;
+        flex: 1;
+        padding: 0 1em;
+        height: 50px;
+        background: 0 0;
+        color: #000;
+        text-align: left;
+        font-size: 18px !important;
+        border: none;
+    }
+}
+
+#swiper-container1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 1050px;
+    height: 110px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+/* 大搜索栏的一系列样式 */
+/* 大搜索栏下拉菜单的一系列样式 */
+.search-wrap .search-box,
+.search-wrap .search-input {
+    line-height: 50px;
+    transition: border .4s, background .4s;
+    box-sizing: border-box;
+}
+
+.hidecover {
+    display: none;
+}
+
+.search-tab-text {
+    svg {
+        width: 15px;
+        height: 15px;
+        transform: rotate(180deg);
+        transition: transform .3s, top .3s;
+    }
+}
+
+/* 大搜索栏下拉菜单的一系列样式 */
+.fold2 {
+    position: absolute;
+    right: 16px;
+    top: -1px;
+    font-size: 18px;
+    color: #ccc;
+}

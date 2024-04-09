@@ -1,0 +1,25 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.signup{
+    padding-top: 1vh;
+    color: dodgerblue;
+    transition: all 0.3s ease-in-out;
+}
+.signup:hover{
+    color: #7dc9eaf6;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #e6e6e6;
+    min-height: 25px;
+    min-width: 25px;
+    border: 1px solid #e0e0e0;
+    border-radius: 99px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f7f7f7;
+    border: 1px solid #efefef;
+}

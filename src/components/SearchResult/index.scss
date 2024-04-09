@@ -1,0 +1,53 @@
+.searchresult{
+    padding: 0 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.8%;
+    width:100%;
+    height:100%;
+}
+.menu{
+    position: relative;
+    top: 0px;
+    width: 25%;
+}
+.searchlist{
+    background-color: white;
+    width: 75%;
+    .fakeai{
+        width: 100%;
+        position: relative;
+        .anime{
+            width: 10vh;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            left: 1vh;
+        }
+        .recommend{
+            position: absolute;
+            font-size: 2.5vh;
+            top:3vh ;
+            left: 10vh;
+        }
+        .keyword{
+            position: absolute;
+            font-size: 2.5vh;
+            top: 8vh;
+            left: 10vh;
+            display: flex;
+            flex-direction: row;
+
+            .keywords{
+                color: #337dff;
+            }
+        }
+    }
+}
+.content {
+    padding: 50px;
+    border-radius: 4px;
+}

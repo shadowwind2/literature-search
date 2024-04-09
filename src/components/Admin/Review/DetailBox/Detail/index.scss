@@ -1,0 +1,91 @@
+.detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-right: 3vh;
+    padding-bottom: 5vh;
+    overflow: overlay;
+    .sentences {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 2rem;
+        position: relative;
+        .keywords{
+            position: absolute;
+            display: flex;
+            flex-direction: row;
+            left: 20vh;
+            top:1.5vh;
+            font-size: 2.5vh;
+            .title{
+                color:#0099ff;
+            }
+        }
+        .sentence {
+            margin: 1rem;
+            margin-bottom: 0;
+            padding: 1rem;
+            height: 16vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: rgba($color: #000000, $alpha: 0.1);
+            border-radius: 1rem;
+            overflow: auto;
+        }
+    }
+
+    .pic {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 1rem;
+        img{
+            width: 80%;
+        }
+    }
+}
+.pages{
+    width: fit-content;
+    padding: 1vh;
+    font-size: 2vh;
+    color: #0099ff;
+    margin-bottom: 1vh;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border-radius: 1vh;
+}
+.pages:hover{
+    color:#fff;
+    background-color: rgba($color: #000000, $alpha: 0.2);
+}
+.pic-button{
+    position: absolute;
+    left: 16vh;
+    top: 0.5vh;
+}
+.ant-drawer .ant-drawer-body {
+    flex: 1;
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.pic-analysis{
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+    .pic-analysis-text{
+        padding: 1.5vh;
+        width: 60vh;
+        height: 40vh;
+        margin-right: 2vh;
+        background-color: rgba($color: #000000, $alpha: 0.03);
+        border-radius: 1.5vh;
+    }
+}

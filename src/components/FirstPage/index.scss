@@ -1,0 +1,88 @@
+.firstpage {
+    background-color: rgb(186, 224, 239);
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 2vh;
+
+    .firstpage-checkBox{
+        height: 10%;
+        display: flex;
+    }
+    .firstpage-title{
+        width: 50%;
+        height:30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        img{-webkit-user-drag: none;}
+        .firstpage-logo{
+            width: 20%;
+            height: fit-content;
+            float: left;
+            margin-top: 1rem;
+            margin-right: 1rem;
+            img{
+                width: 100%;
+                height: 100%;
+                -webkit-user-drag: none;
+            }
+        }
+    }
+    .firstpage-logo{
+        width: 20%;
+        height: fit-content;
+        float: left;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .firstpage-intro{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .carousel {
+        user-select: none;
+        width: 65%;
+        margin: auto;
+        min-width: 90rem;
+    }
+
+    .firstpage-checkBox {
+        user-select: none;
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+
+    .list {
+        margin: 2rem;
+        margin-right: 22rem;
+        padding: 1rem;
+        width: 25%;
+        float: right;
+        background-color: white;
+        border-radius: 1rem;
+    }
+
+    .intro {
+        user-select: none;
+        font-size: 3vh;
+        width: 25%;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

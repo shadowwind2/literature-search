@@ -1,0 +1,35 @@
+.pay-wrap {
+    width: 100%;
+    background-color: white;
+    border-radius: 1vh;
+    height: 100%;
+    padding: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .kind {
+        font-size: 4vh;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .items {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        .item {
+            font-size: 2.5vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 2.5vh;
+            .number {
+                font-size: 3vh;
+                text-align: center;
+                color: #0084ff;
+            }
+        }
+    }
+}

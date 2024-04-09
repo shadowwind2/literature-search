@@ -1,0 +1,14 @@
+.nologin {
+    height: 15vh;
+    .nologin-list {
+        width: 35vh;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 1vh;
+        p {
+            width: 100%;
+        }
+    }
+}
